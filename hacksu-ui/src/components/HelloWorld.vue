@@ -377,7 +377,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: #4683FF;
 }
 
 a:hover {
@@ -387,7 +387,7 @@ a:hover {
 
 .white-link:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 button {
