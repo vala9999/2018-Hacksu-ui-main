@@ -22,7 +22,7 @@
     <h2>My name is {{myName}} </h2>
     <input v-model="myName">
     <p>Hacksu is a student organization at Kent State University focused on learning and utilizing contemporary technologies. We are a very diverse community, spanning multiple majors from Fashion Design to Zoology and are open to students of any skill level. Everyone is welcome!</p>
-    
+
     <div class= "member-container">
     <div v-for="name in names" class='member-icon'>
       <div class="member-name">
@@ -30,19 +30,19 @@
       </div>
     </div>
     </div>
-    <div class="member-container"> 
+    <div class="member-container">
     <div class="member-icon">
         <div class="member-name">Nolan</div>
         <img class="member-icon-image idle-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://lh3.googleusercontent.com/lpQE7yTChj9bdWKZCINKctuWs9Fd3RtzKOh0ffT27CgbDK2S5o7PM8hAjf4qpVsHS2UKdEnjXejHRT2lUACqgYO0SVbH5S1hPCkcXuswGDhBfWqJK1aNa0Lf6pbO-5mqfp3N7zinCWjKuGXInb_Ul0LSXGpMe9svifDrQUizLrnuUsMv6QS6ij-dRrL_9eWCSN0t-vqHMSlDudxAfEIayTyhbHAZ1eawZxCYwnTBNhh2F7XeW5BMmv4G2xOn0UP14BOsKeudw-TJTynMCUo1JLglIZ2Ii1_TBJFfApqLLq2J666OA0RYQrWLgUHRZbi6s6V8-hseiqDaK2aGFOlq1OpwqgYpbyMzhqBQ6Bn7hO1tY7YXl5hXPnJhytoIuWOSm--GrealyJxcIXRNLlKR5ZqZcMh5_ve9IEVF-adXyBU3LZyCXtIMaZowb41GFhro21XCDbgcIcA3MrytPKGQ6PGpQCelZtJMO-kkzgd03QArBstv_1q7TIGrgq70-3MSq32LvkKWjN1sJQNhkNC5iCe9TG8susgzLhFxMBdH6R7aVuz4Romu9liXWlu2SbDdACwPhHzk=w2000-h1694" />
-        
+
         <img class="member-icon-image hover-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://lh3.googleusercontent.com/u-ICnoBlKl7HX44hMVskcldvOFm7V4F0trlALj9lUFnS3BSE-wZneZPkTbrVje65CyI8_9lUTA4_tUgOJm6D0ztGvxMDno3fCmRmd2PBrOCGLIXdoosAYFajrl7xZq33evS279vHlHB8jmVEUBmUG2Bq7_ICGEhSlQJHM2_MA4o99PyoAcVP4TSSLPHAT2DrzBKw2k9our976TAyTKERaRxPW8tGrfPAVR0Dx7w0Mod2aOFe0I5VOI29IYUaxeT8-2buw8Dr-QkokCp9hVKNJFYAWWoJjAFGsei8cSO_dvNOw9Q4-bZzEnDjuFuE1e5z511oZMEI0WHcIFFnRIDl4MVapRL4BfxsSEjSyj7L4P5SA4EC2bpxhMZCrb2ggYaVQDaFIXf8Q8dkaE-4RB9yhxnsVdnL1RcVQD6Vie-stWcw1mtZjKsD0R7BgCkUOc7HHlWQ_Kkm7pCEpge6nzeAwkLOiVIjxci-o8HpKGf4kFqz2fQvyCx-ui-4_h8TQQ19xYO0rUZFhhYd7HU2SRiUcrU3VCQPoVUuW9gMyYcGHmSQ3lL-6Z6eu1hNW_BkGtn3egnz1DeO=w2000-h1694" />
-        
+
         <img class="member-icon-image active-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://lh3.googleusercontent.com/UWNwFBJT_kaOhNWzSJaK2XyISktb-REMw_q9-ehB-vqzb6-Qgkp45ZZVFv435alrcW4sbbXrra5VB3QqP1HOmIJKqYApKSxqKUi7AXuDNJa1ftkd898DxXM29qKFSQqrJAVM1TpFrZ2HeR3qM4OUb6OOfMFOrDEFrmwbyYKYlHt1bMjvyguIELMY6ATnaNtOTGnPf3JTsXXEH3G9_1OJUD52qLypAyHES9b7bfAOoTN4GWqmK8HJ-tTqo4wm0hOU2KC3-BXCpUBZTb_aLr0WY__Pvz1QKJNYGWAk9Gclaxb98yL7mnWfYCVrNOr4tKO7X4u1c8Qx0MG3HaTI6WQ2N7I-gIdvfGmdhp6deSm0hsHmijg-XlqS0e6FAFUyCEesykvoTfIuuCh2z2N8xjeMjTDUGAR0lq2AfknHfnRhx0GWcOf80eldeDYH7AaUZi6RANV3RXSEfRrGuECjdpW6Lh9D939nwBNIgPhMR-AN5UmYXg3u9RBDF7vPuGFhhbSotfooAt75OuJzonMfLK4Sqkl-h-t-jdQXf1Ng5vBtJec7MuccTO-oh7w1W8dwRRnlj8-Jrok4=w2000-h1694" />
-        
+
       </div>
     </div>
 
-    
+
 
   </div>
 </section>
@@ -62,7 +62,7 @@
             <p>On the beginner side, we'll be learning the basics of web development - making websites! We will mostly be focusing on CSS and HTML. Make sure to bring a laptop! We will also be setting up Github accounts for those who don't have them.</p>
             <br>
             <p>On the advanced side, Isaac will be talking about Express.js, a Javascript framework for creating APIs!</p>
-              
+
             </div>
         </li>
         <li>
@@ -95,7 +95,7 @@
     </svg></a><a href="https://twitter.com/_hacksu" target="_blank" title="Twitter" class="twitter">
     <svg viewbox="0 0 512 512">
       <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
-    </svg></a><a href="https://www.instagram.com/_hacksu/" target="_blank" title="Instagram" class="instagram">
+    </svg></a><a href="https://www.instagram.com/hacksu/" target="_blank" title="Instagram" class="instagram">
     <svg viewbox="0 0 512 512">
       <g>
         <path d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z"></path>
@@ -134,13 +134,13 @@ export default {
     top:0;
   background-color: #041017;
   font-family: 'Abel', sans-serif;
-  
+
   color: white;
 }
 
 #start-container {
   min-height: 80vh;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,7 +153,7 @@ export default {
   width: 100%;
   height: auto;
   max-width: 1240px;
-  
+
   margin: 0 auto;
 }
 
@@ -166,7 +166,7 @@ export default {
 #start-text {
   width: 50%;
   padding: 0 20px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,13 +180,13 @@ export default {
 section {
   background-color: #EBEEF0;
   color: #041017;
-  
+
   padding: 48px 0;
 }
 
 .green-section {
   background: linear-gradient(to top left, #35c982, #4683FF);
-  
+
   color: white;
 }
 
@@ -233,14 +233,14 @@ section {
 .flex-row {
   display: flex;
   flex-direction: row;
-  
+
   flex-wrap: wrap;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
-  
+
   justify-content: center;
 }
 
@@ -253,19 +253,19 @@ section {
 
 .member-icon {
   position: relative;
-  
+
   width: 25vw;
   height: 25vw;
   min-width: 90px;
   min-height: 90px;
   max-width: 150px;
   max-height: 150px;
-  
+
   margin: 4px;
   border-radius: 100%;
-  
+
   background-color: #FAFAFA;
-  
+
   cursor: pointer;
 }
 
@@ -275,9 +275,9 @@ section {
   left: 50%;
   width: 100%;
   height: auto;
-  
+
   border-radius: 100%;
-  
+
   transform: translate(-50%, -50%);
 }
 
@@ -290,7 +290,7 @@ section {
 }
 
 .active-icon {
- opacity: 0; 
+ opacity: 0;
 }
 
 .member-icon:hover {
@@ -298,35 +298,35 @@ section {
 }
 
 .member-icon:hover .idle-icon {
- opacity: 0; 
+ opacity: 0;
 }
 
 .member-icon:hover .hover-icon {
- opacity: 1; 
+ opacity: 1;
 }
 
 .member-name {
   position: relative;
   top: -48px;
-  
+
   width: 0;
   padding: 10px 0px;
-  
+
   margin: 0 auto;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15);
   border-radius: 3px;
-  
+
   background-color: #041017;
   color: white;
   opacity: 0;
-  
+
   font-family: 'Abel', sans-serif;
   text-align: center;
-  
+
   transition: none;
-  
+
   box-sizing: border-box;
-  
+
   z-index: 10;
 }
 
@@ -339,7 +339,7 @@ section {
 			height: 12px;
 			background-color: inherit;
 
-			box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15); 
+			box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15);
 			transform: rotate(45deg) translateX(-50%);
 
 			z-index: 99;
@@ -349,14 +349,14 @@ section {
   width: 100%;
   padding: 10px 20px;
   opacity: 1;
-  
+
   transition: width 0.2s ease-out, padding 0.2s ease-out;
 }
 
 header {
   display: flex;
   justify-content: flex-end;
-  
+
   width: 100%;
   max-width: 1440px;
 }
@@ -364,15 +364,15 @@ header {
 header ul li {
   display: inline-block;
   padding: 20px 20px;
-  
+
   font-family: 'Abel', sans-serif;
 }
 
 a {
   color: #4683FF;
-  
+
   text-decoration: none;
-  
+
   transition: color 0.2s ease-out;
 }
 
@@ -396,24 +396,24 @@ button {
   margin: 0.5em auto;
   padding: 12px 32px;
   border-radius: 2px;
-  
+
   font-family: 'Ropa Sans', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: white;
-  
+
   background: #35c982;
 
   box-shadow: none;
   border: none;
-  
+
   cursor: pointer;
-  
+
   transition: background-color 0.2s ease-out;
 }
 
 button:hover {
-  background: #2DAF71; 
+  background: #2DAF71;
 }
 
 h1, h2, h3, h4, .meeting-list .header, label {
@@ -440,7 +440,7 @@ h3 {
 .subtitle {
   font-family: 'Abel', sans-serif;
   color: #EAEAEA;
-  
+
   line-height: 1.2em;
 }
 
@@ -452,22 +452,22 @@ p {
 
 label {
   display: block;
-  
+
   width: 100%;
   line-height: 1em;
 }
 
 input[type=text], input[type=email], input[type=password] {
-  
+
   width: 100%;
   max-width: 400px;
   padding: 8px 20px;
-  
+
   margin: 0;
   margin-right: 4px;
-  
+
   background: white;
-  
+
   font-size: 1em;
 }
 
@@ -480,7 +480,7 @@ footer {
   justify-content: space-around;
   width: 100%;
   max-width: 500px;
-  
+
   margin: 0 auto;
 }
 
@@ -494,37 +494,37 @@ footer {
   #start-container {
     justify-content: flex-start;
   }
-  
+
   #start-wrapper {
     flex-wrap: wrap;
   }
-  
+
   #hacksu-logo {
     width: 70%;
     margin: 10% auto 10%;
   }
-  
+
   #start-text {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
-  
+
   #start-text button {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .green-section {
     text-align: center;
   }
-  
+
   .half-container {
     width: 100%;
     margin-bottom: 1.5em;
   }
-  
+
   p {
     font-size: 1em;
     line-height: 1.375em;
