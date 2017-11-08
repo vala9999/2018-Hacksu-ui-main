@@ -3,7 +3,7 @@
  <div id="maincontainer"><header>
   <ul>
     <li><a href="https://khe.io">Kent Hack Enough</a></li>
-    <li>Contact</li>
+    <li><a href= "http://hacksu.cs.kent.edu/contact">Contact</a></li>
   </ul>
 </header>
 <div id="start-container">
