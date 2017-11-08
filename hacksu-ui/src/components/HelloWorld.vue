@@ -1,3 +1,4 @@
+/* eslint-disable /
 <template>
  <div id="maincontainer"><header>
   <ul>
@@ -18,25 +19,19 @@
 <section>
   <div class="text-container">
     <h1>Who are we?</h1>
+    <h2>My name is {{myName}} </h2>
+    <input v-model="myName">
     <p>Hacksu is a student organization at Kent State University focused on learning and utilizing contemporary technologies. We are a very diverse community, spanning multiple majors from Fashion Design to Zoology and are open to students of any skill level. Everyone is welcome!</p>
-    <div class="member-container">
-      <div class="member-icon">
-        <div class="member-name">Nolan</div>
+    
+    <div class= "member-container">
+    <div v-for="name in names" class='member-icon'>
+      <div class="member-name">
+        {{name}}
       </div>
-      <div class="member-icon">
-        <div class="member-name">Nolan</div>
-      </div>
-      <div class="member-icon">
-        <div class="member-name">Nolan</div>
-      </div>
-      <div class="member-icon">
-        <div class="member-name">Nolan</div>
-      </div>
-      <div class="member-icon">
-        <div class="member-name">Nolan</div>
-      </div>
-      
-      <div class="member-icon">
+    </div>
+    </div>
+    <div class="member-container"> 
+    <div class="member-icon">
         <div class="member-name">Nolan</div>
         <img class="member-icon-image idle-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://lh3.googleusercontent.com/lpQE7yTChj9bdWKZCINKctuWs9Fd3RtzKOh0ffT27CgbDK2S5o7PM8hAjf4qpVsHS2UKdEnjXejHRT2lUACqgYO0SVbH5S1hPCkcXuswGDhBfWqJK1aNa0Lf6pbO-5mqfp3N7zinCWjKuGXInb_Ul0LSXGpMe9svifDrQUizLrnuUsMv6QS6ij-dRrL_9eWCSN0t-vqHMSlDudxAfEIayTyhbHAZ1eawZxCYwnTBNhh2F7XeW5BMmv4G2xOn0UP14BOsKeudw-TJTynMCUo1JLglIZ2Ii1_TBJFfApqLLq2J666OA0RYQrWLgUHRZbi6s6V8-hseiqDaK2aGFOlq1OpwqgYpbyMzhqBQ6Bn7hO1tY7YXl5hXPnJhytoIuWOSm--GrealyJxcIXRNLlKR5ZqZcMh5_ve9IEVF-adXyBU3LZyCXtIMaZowb41GFhro21XCDbgcIcA3MrytPKGQ6PGpQCelZtJMO-kkzgd03QArBstv_1q7TIGrgq70-3MSq32LvkKWjN1sJQNhkNC5iCe9TG8susgzLhFxMBdH6R7aVuz4Romu9liXWlu2SbDdACwPhHzk=w2000-h1694" />
         
@@ -46,6 +41,7 @@
         
       </div>
     </div>
+
     
 
   </div>
@@ -118,6 +114,8 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
+      myName: 'ben',
+      names: ['elizabeth', 'alex', 'sami'],
     };
   },
 };
