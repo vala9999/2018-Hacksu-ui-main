@@ -369,7 +369,7 @@ header ul li {
 }
 
 a {
-  color: #4683FF;
+  color: white;
 
   text-decoration: none;
 
@@ -377,11 +377,11 @@ a {
 }
 
 a:visited {
-  color: #4683FF;
+  color: white;
 }
 
 a:hover {
-  color: #4683FF;
+  color: white;
   text-decoration: underline;
 }
 
