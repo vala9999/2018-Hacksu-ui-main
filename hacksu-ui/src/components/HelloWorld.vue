@@ -3,8 +3,10 @@
  <div id="maincontainer">
 <header>
   <ul id="banner">
+    <a href="#" class="bannerItem">Kent Hack Enough</a>
     <a href="https://khe.io" class="bannerItem" target="_blank">Kent Hack Enough</a>
     <a href="#" class="bannerItem">Contact</a>
+    <a href="#" class="bannerItem">Constitution</a>
   </ul>
 </header>
 <div id="start-container">
