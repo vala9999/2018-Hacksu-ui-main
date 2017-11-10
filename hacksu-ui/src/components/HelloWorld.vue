@@ -1,9 +1,10 @@
 /* eslint-disable /
 <template>
- <div id="maincontainer"><header>
-  <ul>
-    <li><a href="https://khe.io">Kent Hack Enough</a></li>
-    <li><a href= "http://hacksu.cs.kent.edu/contact">Contact</a></li>
+ <div id="maincontainer">
+<header>
+  <ul id="banner">
+    <a href="https://khe.io" class="bannerItem" target="_blank">Kent Hack Enough</a>
+    <li class="bannerItem">Contact</li>
   </ul>
 </header>
 <div id="start-container">
@@ -118,6 +119,9 @@ export default {
       names: ['elizabeth', 'alex', 'sami'],
     };
   },
+  methods: {
+
+  },
 };
 </script>
 
@@ -127,6 +131,29 @@ export default {
   box-sizing: border-box;
 }
 
+#banner {
+  width: 100%;
+  position: fixed;
+  background: black;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+
+
+}
+.bannerItem {
+  color: white;
+  transition-duration: .3s;
+  height: 100%;
+  display: inline-block;
+  padding: 20px 20px;
+
+}
+.bannerItem:hover {
+  background: #4683FF;
+
+}
 #maincontainer {
     position:absolute;
     width:100%;
@@ -361,7 +388,7 @@ header {
   max-width: 1440px;
 }
 
-header ul li {
+header li {
   display: inline-block;
   padding: 20px 20px;
 
@@ -369,19 +396,18 @@ header ul li {
 }
 
 a {
-  color: white;
 
   text-decoration: none;
 
-  transition: color 0.2s ease-out;
+  /*transition: color 0.2s ease-out;*/
 }
 
 a:visited {
-  color: #4683FF;
+
 }
 
 a:hover {
-  color: white;
+
   text-decoration: underline;
 }
 
