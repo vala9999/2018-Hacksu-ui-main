@@ -13,7 +13,16 @@
     <div id="start-text">
       <h1>Learn. Grow. Create.</h1>
       <h2 class="subtitle">Hacksu teaches anyone, regardless of skill level or major, how to code.</h2>
-      <button>Get Involved</button>
+      <button v-scroll-to="{
+     el: '#get-involved',
+     duration: 500,
+     easing: 'linear',
+     offset: -100,
+     cancelable: true,
+     onDone: onDone,
+     onCancel: onCancel,
+     x: false,
+     y: true}">Get Involved</button>
     </div>
   </div><!-- /Wrapper -->
 </div><!-- /Container -->
@@ -42,8 +51,6 @@
 
       </div>
     </div>
-
-
 
   </div>
 </section>
