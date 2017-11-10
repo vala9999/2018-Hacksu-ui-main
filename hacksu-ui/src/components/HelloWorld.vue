@@ -4,7 +4,9 @@
 <header>
   <ul id="banner">
     <a href="https://khe.io" class="bannerItem" target="_blank">Kent Hack Enough</a>
-    <li class="bannerItem">Contact</li>
+    <a href="#" class="bannerItem">Contact</a>
+    <a href="#" class="bannerItem">Constitution</a>
+    <a href="#" class="bannerItem">FAQ</a>
   </ul>
 </header>
 <div id="start-container">
