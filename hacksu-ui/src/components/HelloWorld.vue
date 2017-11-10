@@ -397,7 +397,6 @@ header li {
 
 a {
 
-
   text-decoration: none;
 
   /*transition: color 0.2s ease-out;*/
@@ -414,7 +413,7 @@ a:hover {
 
 .white-link:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 button {
