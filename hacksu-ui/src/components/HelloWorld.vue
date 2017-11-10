@@ -6,9 +6,10 @@
       <a href="https://khe.io" class="bannerItem" target="_blank">Kent Hack Enough</a>
       <li class="bannerItem">Contact</li>
 
-      <div class="bannerItem" v-on:click="logFunc()" id="loginNav">
+      <div class="bannerItem" v-on:click="logFunc()" id="loginNav"@click="loginShown = !loginShown">
+        <span class="popuptext" id="myPopup" v-if="loginShown">A Simple Popup!</span>
       Login
-        <span class="popuptext" id="myPopup">A Simple Popup!</span>
+        
       </div>
 
     </ul>
@@ -119,6 +120,8 @@
             return {
               myName: 'ben',
               names: ['elizabeth', 'alex', 'sami'],
+
+              loginShown: false, 
             
             };
           },
@@ -126,7 +129,7 @@
             logFunc: function(){
             // body...
               var popup = document.getElementById("loginNav");
-              popup.classList.toggle("show");
+              //popup.classList.toggle("show");
             }
           },
         };
@@ -166,8 +169,14 @@
       }
 
         .popuptext{
-          visibility: hidden;
-          color: white;
+          background: white;
+          margin-top: 40px;
+          margin-left: -20px;
+          padding: 20px;
+          color: black;
+          position: absolute;
+          box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+
           /*width: */
           z-index: 1001;
         }
