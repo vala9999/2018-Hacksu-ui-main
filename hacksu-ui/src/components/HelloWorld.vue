@@ -19,9 +19,6 @@
      easing: 'linear',
      offset: -100,
      cancelable: true,
-     onDone: onDone,
-     onCancel: onCancel,
-     x: false,
      y: true}">Get Involved</button>
     </div>
   </div><!-- /Wrapper -->
