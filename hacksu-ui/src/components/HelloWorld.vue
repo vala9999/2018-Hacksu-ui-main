@@ -1,14 +1,7 @@
 /* eslint-disable /
 <template>
  <div id="maincontainer">
-<header>
-  <ul id="banner">
-    <a href="https://khe.io" class="bannerItem" target="_blank">Kent Hack Enough</a>
-    <a href="#" class="bannerItem">Contact</a>
-    <a href="#" class="bannerItem">Constitution</a>
-    <a href="#" class="bannerItem">FAQ</a>
-  </ul>
-</header>
+
 <div id="start-container">
   <div id="start-wrapper">
     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/816158/hacksu-logo.svg" alt="Hacksu" title="Hacksu" id="hacksu-logo">
@@ -133,34 +126,13 @@ export default {
   box-sizing: border-box;
 }
 
-#banner {
-  width: 100%;
-  position: fixed;
-  background: black;
-  z-index: 1000;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0;
 
-
-}
-.bannerItem {
-  color: white;
-  transition-duration: .3s;
-  height: 100%;
-  display: inline-block;
-  padding: 20px 20px;
-
-}
-.bannerItem:hover {
-  background: #4683FF;
-
-}
 #maincontainer {
     position:absolute;
     width:100%;
     left:0;
     top:0;
+    padding-top:50px;
   background-color: #041017;
   font-family: 'Abel', sans-serif;
 
