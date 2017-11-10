@@ -322,9 +322,12 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+  .white-link {
+    color: white;
+  }
 .white-link:hover {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 button {
   width: auto;
@@ -372,6 +375,8 @@ p {
   font-size: 1em;
   line-height: 1.2em;
 }
+  
+  
 label {
   display: block;
   width: 100%;

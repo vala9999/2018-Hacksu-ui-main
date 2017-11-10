@@ -2,19 +2,26 @@
   <div id="app">
     <header>
     <ul id="banner">
+      <a href="/" class="bannerItem">
+        Home
+      </a>
       <a href="https://khe.io" class="bannerItem" target="_blank">
         Kent Hack Enough
       </a>
       <a href="#" class="bannerItem">
-        Contact
+        Contact (Not implemented)
       </a>
       <a href="#" class="bannerItem">
-        Constitution
+        Constitution (Not implemented)
       </a>
-      <a href="#" class="bannerItem">
+      <a href="FAQ" class="bannerItem">
         FAQ
       </a>
-      <a href="#" class="bannerItem">
+      <a @click="loginShown = !loginShown" class="bannerItem">
+        <div class="subMenu" v-if="loginShown">
+          <a>Login</a>
+          <a>Register</a>
+        </div>
         Login/Register
       </a>
     </ul>
@@ -27,6 +34,11 @@
 <script>
 export default {
   name: 'app',
+  data() {
+    return {
+      loginShown: false,
+    }
+  }
 };
 </script>
 
@@ -67,12 +79,45 @@ header li {
   height: 100%;
   display: inline-block;
   padding: 20px 20px;
+  cursor: pointer;
 
 }
 .bannerItem:hover {
   background: #4683FF;
 
 }
+  
+  .subMenu {
+    background: white;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+    animation: slideOut .3s linear;
+    overflow: hidden;
+  }
+  
+  .subMenu a {
+    display: block;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    min-width: 100px;
+    transition-duration: .3s;
+  }
+  .subMenu a:hover {
+    background: lightgray;
+  }
+  
+  @keyframes slideOut {
+    from {
+      max-height: 0px;
+    }
+    to {
+      max-height: 400px;
+    }
+  }
   
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

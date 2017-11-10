@@ -1,6 +1,6 @@
           /* eslint-disable /
 <template>
- <div> Hello World!</div>
+ <h1>FAQ Page</h1>
 </template>
 
 <script>
@@ -8,8 +8,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      myName: 'ben',
-      names: ['elizabeth', 'alex', 'sami'],
+      
     };
   },
   methods: {
