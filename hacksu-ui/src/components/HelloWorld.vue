@@ -47,14 +47,14 @@
   </div>
 </section>
 <section class="green-section" id="meetings">
-  <h1 class="text-container">Meetings</h1>
-  <div class="text-container flex-row">
-    <div class="half-container">
+  <h1 id = 'meetingsheader' class="text-container">Meetings</h1>
+  <div class="text-container">
+    <div class="text-container">
       <h2>Every Tuesday @ 7pm</h2>
       <h3>Honors College, room 060</h3>
       <p><a href="#" class="white-link">Need directions?</a></p>
     </div>
-    <div class="half-container flex-col">
+    <div class="class-container flex-col">
       <ul class="meeting-list">
         <li>
           <div class="header">Web Basics, ExpressJS</div>
