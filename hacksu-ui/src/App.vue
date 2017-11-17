@@ -19,7 +19,22 @@
       </a>
       <a @click="loginShown = !loginShown" class="bannerItem">
         <div class="subMenu" v-if="loginShown">
-          <a>Login</a>
+          <a>Login
+              <div class="subMenu"> 
+                <!--<input type="" name="">>UserName-->
+                   <input type="text" placeholder="Enter Username" name="uname" required>
+
+                   <label><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required></a></input>
+
+                          <a href="http://2016.khe.io/recover" class="psw">Forgot password?</a>
+
+                        <button type="submit">Login</button>
+                        
+              </div>
+
+
+          </a>
           <a>Register</a>
         </div>
         Login/Register
@@ -109,7 +124,7 @@ header li {
   .subMenu a:hover {
     background: lightgray;
   }
-  
+    
   @keyframes slideOut {
     from {
       max-height: 0px;
